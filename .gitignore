@@ -1,0 +1,47 @@
+# ==============================================================================
+# Grossify Desktop - Git Ignore Configuration
+# ==============================================================================
+
+# --- macOS System & Finder Metadata ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Swift Package Manager & Xcode ---
+.build/
+.swiftpm/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# --- Compiled Binaries & Object Files ---
+Backend/grossify_backend
+*.o
+*.obj
+*.out
+*.dylib
+*.app
+
+# --- SQLite Databases & Runtime Data ---
+# Databases are generated automatically at runtime by the backend
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# --- Backup, Temporary & Editor Files ---
+*.bak
+*.backup*
+*backup*
+*.orig
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
